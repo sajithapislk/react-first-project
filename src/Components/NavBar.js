@@ -1,21 +1,21 @@
-// Components/NavBar.js
-import { Link } from 'react-router-dom';
+// NavBar.js
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
  return (
- <nav>
+    <nav>
        <ul>
           <li>
-             <Link to="/">Home</Link>
+             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-             <Link to="/about">About</Link>
+             <NavLink to="/about">About</NavLink>
           </li>
           <li>
-             <Link to="/products">Products</Link>
+             <NavLink to="/products">Products</NavLink>
           </li>
        </ul>
- </nav>
+    </nav>
  );
 };
 
