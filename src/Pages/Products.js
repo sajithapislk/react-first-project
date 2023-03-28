@@ -26,7 +26,7 @@ const Products = () => {
           }
        }
     `
-       );
+       ).then((data) => console.log(data));
        setProducts(cocktails);
     };
     fetchProducts();
